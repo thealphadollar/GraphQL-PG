@@ -1,0 +1,27 @@
+{
+  "name": "graphql-pg",
+  "version": "1.0.0",
+  "description": "Frontend for graphql PG",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "nodemon": "^1.18.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealphadollar/GraphQL-PG.git"
+  },
+  "author": "thealphadollar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thealphadollar/GraphQL-PG/issues"
+  },
+  "homepage": "https://github.com/thealphadollar/GraphQL-PG#readme"
+}
