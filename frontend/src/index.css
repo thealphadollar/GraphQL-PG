@@ -31,9 +31,8 @@ body {
 }
 
 form{
-  background: #fff;
   padding: 20px;
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 400px;
