@@ -2,10 +2,13 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const moon = require('mongoose')
 const schema = require('./schema/schema');
-
+const cors = require('cors');
 
 const app = express();
 const PORT = 4000
+
+// allow cross origin request
+app.use(cors());
 
 // database connection
 moon.connect('mongodb://thealphadollar:test123@ds245715.mlab.com:45715/learn-graphql');
